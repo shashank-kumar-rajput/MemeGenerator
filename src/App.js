@@ -19,6 +19,9 @@ export class App extends Component  {
     this.setState({ showform: true, showApi:false});
   
   };
+   refreshPage() {
+    window.location.reload(false);
+  }
   componentDidMount() {
     fetch("https://api.imgflip.com/get_memes")
       .then((response) => response.json())
@@ -41,6 +44,9 @@ export class App extends Component  {
       <button onClick={this.onClick} style={{color:'blue'}}>
         Create your own Memes
         </button>
+<button onClick={() => window.location.reload(false)}style={{color:'blue'}}>
+          Refresh page
+          </button>
         {showApi && <div>
           {this.state.allMemeImgs.map((allmeme) => (
             <div style={{ display: "inline-grid" }}>
