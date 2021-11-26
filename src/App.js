@@ -44,7 +44,7 @@ export class App extends Component  {
         {showApi && <div>
           {this.state.allMemeImgs.map((allmeme) => (
             <div style={{ display: "inline-grid" }}>
-              <img src={allmeme.url} width={200} height={200} />
+              <img src={allmeme.url} width={200} height={200} alt={"NO MEME"}/>
               <figcaption style={({ height: 70 }, { width: 210 })}>
                 {allmeme.name}
               </figcaption>
