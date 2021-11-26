@@ -1,0 +1,19 @@
+.container {
+  margin-top: 50px;
+}
+.copy {
+  background-color: #fbbf24;
+  margin-top: 20px;
+}
+
+.copy:hover {
+  background-color: #f59e0b;
+}
+
+.home {
+  background-color: #c1c4cc;
+}
+
+.home:hover {
+  background-color: #1e40af;
+}

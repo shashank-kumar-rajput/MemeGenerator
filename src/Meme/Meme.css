@@ -1,0 +1,18 @@
+.container {
+  margin-top: 50px;
+}
+.skip {
+  background-color: #fbbf24;
+}
+
+.skip:hover {
+  background-color: #f59e0b;
+}
+
+.generate {
+  background-color: #091d50;
+}
+
+.generate:hover {
+  background-color: #1b2a5a;
+}
